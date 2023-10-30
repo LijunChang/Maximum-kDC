@@ -32,6 +32,6 @@ Two data formats are supported. The default data format is "edges.txt", which co
 The more time-efficient format is the binary format; to read the input graph from this format, please add "-b" when running the code. Each graph is represented by two binary files, b_adj.bin and b_degree.bin (e.g. datasets/CA-GrQc/b_adj.bin and datasets/CA-GrQc/b_degree.bin). More details of the data format can be found in [https://lijunchang.github.io/Cohesive_subgraph_book/datasets](https://lijunchang.github.io/Cohesive_subgraph_book/datasets)
 
 ## Get datasets
-Real-world graphs collection: [http://lcs.ios.ac.cn/~caisw/Resource/realworld%20graphs.tar.gz]
+Real-world graphs collection: [http://lcs.ios.ac.cn/~caisw/Resource/realworld%20graphs.tar.gz](http://lcs.ios.ac.cn/~caisw/Resource/realworld%20graphs.tar.gz)
 
-Facebook graphs collection: [https://networkrepository.com/socfb.php]
+Facebook graphs collection: [https://networkrepository.com/socfb.php](https://networkrepository.com/socfb.php)
