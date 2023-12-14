@@ -382,9 +382,9 @@ private:
 		ui max_degree = 0;
 		for(ui i = S_end;i < R_end;i ++) {
 			ui &d = t_degree[SR[i]] = 0;
-			for(ui j = pstart_R[SR[i]];j < pend[SR[i]]&&removed_level[SR[i]] >= level;j ++) {
-				assert(SR_rid[SR[i]] >= S_end);
-				if(SR_rid[SR[i]] < R_end) ++ d;
+			for(ui j = pstart_R[SR[i]];j < pend[SR[i]]&&removed_level[edges[j]] >= level;j ++) {
+				assert(SR_rid[edges[j]] >= S_end);
+				if(SR_rid[edges[j]] < R_end) ++ d;
 			}
 			if(d > max_degree) max_degree = d;
 		}
